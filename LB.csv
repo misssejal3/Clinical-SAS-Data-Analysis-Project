@@ -1,0 +1,481 @@
+USUBJID,VISIT,VISITNUM,ANALYTE,LBSTRESN
+1001,Baseline,0,HbA1c,8.24
+1001,Week 4,4,HbA1c,7.23
+1001,Week 12,12,HbA1c,7.37
+1001,Week 24,24,HbA1c,6.89
+1002,Baseline,0,HbA1c,7.24
+1002,Week 4,4,HbA1c,7.05
+1002,Week 12,12,HbA1c,6.67
+1002,Week 24,24,HbA1c,6.89
+1003,Baseline,0,HbA1c,8.59
+1003,Week 4,4,HbA1c,8.15
+1003,Week 12,12,HbA1c,8.06
+1003,Week 24,24,HbA1c,8.12
+1004,Baseline,0,HbA1c,6.97
+1004,Week 4,4,HbA1c,6.87
+1004,Week 12,12,HbA1c,6.69
+1004,Week 24,24,HbA1c,6.1
+1005,Baseline,0,HbA1c,7.22
+1005,Week 4,4,HbA1c,7.68
+1005,Week 12,12,HbA1c,7.62
+1005,Week 24,24,HbA1c,7.57
+1006,Baseline,0,HbA1c,6.4
+1006,Week 4,4,HbA1c,6.36
+1006,Week 12,12,HbA1c,6.06
+1006,Week 24,24,HbA1c,6.47
+1007,Baseline,0,HbA1c,8.03
+1007,Week 4,4,HbA1c,8.09
+1007,Week 12,12,HbA1c,7.48
+1007,Week 24,24,HbA1c,7.04
+1008,Baseline,0,HbA1c,6.04
+1008,Week 4,4,HbA1c,5.95
+1008,Week 12,12,HbA1c,6.14
+1008,Week 24,24,HbA1c,6.21
+1009,Baseline,0,HbA1c,5.99
+1009,Week 4,4,HbA1c,6.33
+1009,Week 12,12,HbA1c,5.64
+1009,Week 24,24,HbA1c,5.29
+1010,Baseline,0,HbA1c,7.46
+1010,Week 4,4,HbA1c,7.22
+1010,Week 12,12,HbA1c,7.1
+1010,Week 24,24,HbA1c,6.61
+1011,Baseline,0,HbA1c,8.75
+1011,Week 4,4,HbA1c,8.57
+1011,Week 12,12,HbA1c,8.4
+1011,Week 24,24,HbA1c,8.01
+1012,Baseline,0,HbA1c,7.2
+1012,Week 4,4,HbA1c,7.55
+1012,Week 12,12,HbA1c,7.09
+1012,Week 24,24,HbA1c,6.96
+1013,Baseline,0,HbA1c,7.05
+1013,Week 4,4,HbA1c,6.87
+1013,Week 12,12,HbA1c,7.04
+1013,Week 24,24,HbA1c,7.28
+1014,Baseline,0,HbA1c,6.24
+1014,Week 4,4,HbA1c,6.03
+1014,Week 12,12,HbA1c,6.18
+1014,Week 24,24,HbA1c,5.37
+1015,Baseline,0,HbA1c,6.15
+1015,Week 4,4,HbA1c,6.18
+1015,Week 12,12,HbA1c,5.91
+1015,Week 24,24,HbA1c,5.8
+1016,Baseline,0,HbA1c,7.14
+1016,Week 4,4,HbA1c,7.33
+1016,Week 12,12,HbA1c,7.1
+1016,Week 24,24,HbA1c,7.12
+1017,Baseline,0,HbA1c,7.72
+1017,Week 4,4,HbA1c,7.05
+1017,Week 12,12,HbA1c,7.45
+1017,Week 24,24,HbA1c,6.63
+1018,Baseline,0,HbA1c,7.16
+1018,Week 4,4,HbA1c,7.0
+1018,Week 12,12,HbA1c,7.17
+1018,Week 24,24,HbA1c,6.95
+1019,Baseline,0,HbA1c,6.1
+1019,Week 4,4,HbA1c,6.37
+1019,Week 12,12,HbA1c,6.35
+1019,Week 24,24,HbA1c,6.12
+1020,Baseline,0,HbA1c,8.15
+1020,Week 4,4,HbA1c,7.78
+1020,Week 12,12,HbA1c,7.67
+1020,Week 24,24,HbA1c,7.39
+1021,Baseline,0,HbA1c,8.28
+1021,Week 4,4,HbA1c,8.32
+1021,Week 12,12,HbA1c,8.53
+1021,Week 24,24,HbA1c,8.22
+1022,Baseline,0,HbA1c,6.82
+1022,Week 4,4,HbA1c,6.96
+1022,Week 12,12,HbA1c,6.83
+1022,Week 24,24,HbA1c,6.94
+1023,Baseline,0,HbA1c,6.16
+1023,Week 4,4,HbA1c,6.15
+1023,Week 12,12,HbA1c,5.88
+1023,Week 24,24,HbA1c,5.95
+1024,Baseline,0,HbA1c,6.82
+1024,Week 4,4,HbA1c,6.25
+1024,Week 12,12,HbA1c,6.68
+1024,Week 24,24,HbA1c,5.97
+1025,Baseline,0,HbA1c,5.6
+1025,Week 4,4,HbA1c,6.15
+1025,Week 12,12,HbA1c,5.75
+1025,Week 24,24,HbA1c,5.87
+1026,Baseline,0,HbA1c,6.8
+1026,Week 4,4,HbA1c,6.72
+1026,Week 12,12,HbA1c,6.83
+1026,Week 24,24,HbA1c,6.92
+1027,Baseline,0,HbA1c,8.31
+1027,Week 4,4,HbA1c,9.0
+1027,Week 12,12,HbA1c,8.79
+1027,Week 24,24,HbA1c,8.61
+1028,Baseline,0,HbA1c,6.66
+1028,Week 4,4,HbA1c,6.36
+1028,Week 12,12,HbA1c,5.74
+1028,Week 24,24,HbA1c,5.72
+1029,Baseline,0,HbA1c,8.31
+1029,Week 4,4,HbA1c,7.88
+1029,Week 12,12,HbA1c,7.47
+1029,Week 24,24,HbA1c,7.27
+1030,Baseline,0,HbA1c,9.94
+1030,Week 4,4,HbA1c,9.95
+1030,Week 12,12,HbA1c,9.93
+1030,Week 24,24,HbA1c,9.43
+1031,Baseline,0,HbA1c,7.2
+1031,Week 4,4,HbA1c,6.56
+1031,Week 12,12,HbA1c,6.6
+1031,Week 24,24,HbA1c,6.44
+1032,Baseline,0,HbA1c,5.91
+1032,Week 4,4,HbA1c,6.12
+1032,Week 12,12,HbA1c,6.16
+1032,Week 24,24,HbA1c,5.48
+1033,Baseline,0,HbA1c,7.11
+1033,Week 4,4,HbA1c,6.97
+1033,Week 12,12,HbA1c,7.13
+1033,Week 24,24,HbA1c,6.59
+1034,Baseline,0,HbA1c,5.32
+1034,Week 4,4,HbA1c,5.59
+1034,Week 12,12,HbA1c,5.65
+1034,Week 24,24,HbA1c,5.29
+1035,Baseline,0,HbA1c,6.77
+1035,Week 4,4,HbA1c,6.58
+1035,Week 12,12,HbA1c,6.45
+1035,Week 24,24,HbA1c,6.15
+1036,Baseline,0,HbA1c,5.58
+1036,Week 4,4,HbA1c,5.91
+1036,Week 12,12,HbA1c,5.65
+1036,Week 24,24,HbA1c,5.82
+1037,Baseline,0,HbA1c,5.9
+1037,Week 4,4,HbA1c,6.03
+1037,Week 12,12,HbA1c,5.58
+1037,Week 24,24,HbA1c,5.8
+1038,Baseline,0,HbA1c,7.6
+1038,Week 4,4,HbA1c,7.44
+1038,Week 12,12,HbA1c,7.24
+1038,Week 24,24,HbA1c,6.9
+1039,Baseline,0,HbA1c,6.18
+1039,Week 4,4,HbA1c,6.29
+1039,Week 12,12,HbA1c,6.45
+1039,Week 24,24,HbA1c,5.95
+1040,Baseline,0,HbA1c,7.76
+1040,Week 4,4,HbA1c,8.13
+1040,Week 12,12,HbA1c,7.71
+1040,Week 24,24,HbA1c,7.4
+1041,Baseline,0,HbA1c,6.57
+1041,Week 4,4,HbA1c,6.44
+1041,Week 12,12,HbA1c,6.42
+1041,Week 24,24,HbA1c,6.35
+1042,Baseline,0,HbA1c,8.6
+1042,Week 4,4,HbA1c,8.44
+1042,Week 12,12,HbA1c,7.95
+1042,Week 24,24,HbA1c,7.68
+1043,Baseline,0,HbA1c,5.91
+1043,Week 4,4,HbA1c,5.63
+1043,Week 12,12,HbA1c,5.93
+1043,Week 24,24,HbA1c,5.06
+1044,Baseline,0,HbA1c,5.85
+1044,Week 4,4,HbA1c,5.97
+1044,Week 12,12,HbA1c,6.02
+1044,Week 24,24,HbA1c,6.11
+1045,Baseline,0,HbA1c,6.03
+1045,Week 4,4,HbA1c,6.05
+1045,Week 12,12,HbA1c,6.49
+1045,Week 24,24,HbA1c,6.33
+1046,Baseline,0,HbA1c,7.81
+1046,Week 4,4,HbA1c,7.55
+1046,Week 12,12,HbA1c,7.0
+1046,Week 24,24,HbA1c,6.89
+1047,Baseline,0,HbA1c,8.31
+1047,Week 4,4,HbA1c,8.4
+1047,Week 12,12,HbA1c,8.2
+1047,Week 24,24,HbA1c,8.27
+1048,Baseline,0,HbA1c,6.55
+1048,Week 4,4,HbA1c,6.24
+1048,Week 12,12,HbA1c,6.18
+1048,Week 24,24,HbA1c,6.34
+1049,Baseline,0,HbA1c,7.72
+1049,Week 4,4,HbA1c,7.34
+1049,Week 12,12,HbA1c,7.18
+1049,Week 24,24,HbA1c,7.26
+1050,Baseline,0,HbA1c,7.47
+1050,Week 4,4,HbA1c,7.8
+1050,Week 12,12,HbA1c,7.25
+1050,Week 24,24,HbA1c,7.07
+1051,Baseline,0,HbA1c,5.96
+1051,Week 4,4,HbA1c,6.15
+1051,Week 12,12,HbA1c,5.9
+1051,Week 24,24,HbA1c,5.05
+1052,Baseline,0,HbA1c,6.63
+1052,Week 4,4,HbA1c,6.91
+1052,Week 12,12,HbA1c,6.62
+1052,Week 24,24,HbA1c,7.24
+1053,Baseline,0,HbA1c,8.32
+1053,Week 4,4,HbA1c,8.56
+1053,Week 12,12,HbA1c,8.31
+1053,Week 24,24,HbA1c,8.05
+1054,Baseline,0,HbA1c,7.81
+1054,Week 4,4,HbA1c,7.85
+1054,Week 12,12,HbA1c,7.96
+1054,Week 24,24,HbA1c,8.21
+1055,Baseline,0,HbA1c,7.16
+1055,Week 4,4,HbA1c,6.78
+1055,Week 12,12,HbA1c,7.44
+1055,Week 24,24,HbA1c,6.8
+1056,Baseline,0,HbA1c,7.91
+1056,Week 4,4,HbA1c,7.44
+1056,Week 12,12,HbA1c,7.09
+1056,Week 24,24,HbA1c,7.01
+1057,Baseline,0,HbA1c,7.58
+1057,Week 4,4,HbA1c,7.02
+1057,Week 12,12,HbA1c,7.3
+1057,Week 24,24,HbA1c,6.74
+1058,Baseline,0,HbA1c,5.73
+1058,Week 4,4,HbA1c,5.22
+1058,Week 12,12,HbA1c,6.1
+1058,Week 24,24,HbA1c,5.41
+1059,Baseline,0,HbA1c,8.45
+1059,Week 4,4,HbA1c,8.59
+1059,Week 12,12,HbA1c,8.03
+1059,Week 24,24,HbA1c,8.01
+1060,Baseline,0,HbA1c,6.85
+1060,Week 4,4,HbA1c,6.63
+1060,Week 12,12,HbA1c,6.09
+1060,Week 24,24,HbA1c,6.06
+1061,Baseline,0,HbA1c,6.71
+1061,Week 4,4,HbA1c,6.39
+1061,Week 12,12,HbA1c,6.28
+1061,Week 24,24,HbA1c,6.44
+1062,Baseline,0,HbA1c,9.54
+1062,Week 4,4,HbA1c,9.32
+1062,Week 12,12,HbA1c,9.31
+1062,Week 24,24,HbA1c,9.22
+1063,Baseline,0,HbA1c,6.32
+1063,Week 4,4,HbA1c,6.7
+1063,Week 12,12,HbA1c,6.13
+1063,Week 24,24,HbA1c,5.72
+1064,Baseline,0,HbA1c,7.08
+1064,Week 4,4,HbA1c,6.98
+1064,Week 12,12,HbA1c,7.0
+1064,Week 24,24,HbA1c,6.65
+1065,Baseline,0,HbA1c,7.61
+1065,Week 4,4,HbA1c,8.06
+1065,Week 12,12,HbA1c,7.62
+1065,Week 24,24,HbA1c,7.45
+1066,Baseline,0,HbA1c,6.31
+1066,Week 4,4,HbA1c,6.28
+1066,Week 12,12,HbA1c,5.79
+1066,Week 24,24,HbA1c,5.49
+1067,Baseline,0,HbA1c,7.19
+1067,Week 4,4,HbA1c,7.28
+1067,Week 12,12,HbA1c,6.83
+1067,Week 24,24,HbA1c,6.58
+1068,Baseline,0,HbA1c,7.14
+1068,Week 4,4,HbA1c,6.72
+1068,Week 12,12,HbA1c,7.28
+1068,Week 24,24,HbA1c,6.55
+1069,Baseline,0,HbA1c,9.45
+1069,Week 4,4,HbA1c,9.58
+1069,Week 12,12,HbA1c,9.7
+1069,Week 24,24,HbA1c,9.47
+1070,Baseline,0,HbA1c,8.69
+1070,Week 4,4,HbA1c,8.76
+1070,Week 12,12,HbA1c,9.04
+1070,Week 24,24,HbA1c,9.16
+1071,Baseline,0,HbA1c,6.66
+1071,Week 4,4,HbA1c,6.96
+1071,Week 12,12,HbA1c,6.55
+1071,Week 24,24,HbA1c,6.15
+1072,Baseline,0,HbA1c,4.88
+1072,Week 4,4,HbA1c,4.68
+1072,Week 12,12,HbA1c,4.88
+1072,Week 24,24,HbA1c,4.31
+1073,Baseline,0,HbA1c,7.74
+1073,Week 4,4,HbA1c,7.15
+1073,Week 12,12,HbA1c,7.89
+1073,Week 24,24,HbA1c,7.08
+1074,Baseline,0,HbA1c,7.62
+1074,Week 4,4,HbA1c,7.26
+1074,Week 12,12,HbA1c,7.66
+1074,Week 24,24,HbA1c,7.14
+1075,Baseline,0,HbA1c,6.82
+1075,Week 4,4,HbA1c,6.88
+1075,Week 12,12,HbA1c,6.59
+1075,Week 24,24,HbA1c,6.57
+1076,Baseline,0,HbA1c,5.17
+1076,Week 4,4,HbA1c,4.83
+1076,Week 12,12,HbA1c,5.52
+1076,Week 24,24,HbA1c,5.32
+1077,Baseline,0,HbA1c,7.43
+1077,Week 4,4,HbA1c,8.04
+1077,Week 12,12,HbA1c,7.31
+1077,Week 24,24,HbA1c,7.19
+1078,Baseline,0,HbA1c,7.25
+1078,Week 4,4,HbA1c,7.16
+1078,Week 12,12,HbA1c,6.9
+1078,Week 24,24,HbA1c,6.33
+1079,Baseline,0,HbA1c,7.63
+1079,Week 4,4,HbA1c,7.65
+1079,Week 12,12,HbA1c,7.37
+1079,Week 24,24,HbA1c,7.02
+1080,Baseline,0,HbA1c,7.55
+1080,Week 4,4,HbA1c,7.67
+1080,Week 12,12,HbA1c,7.57
+1080,Week 24,24,HbA1c,6.98
+1081,Baseline,0,HbA1c,6.85
+1081,Week 4,4,HbA1c,6.94
+1081,Week 12,12,HbA1c,6.49
+1081,Week 24,24,HbA1c,6.28
+1082,Baseline,0,HbA1c,6.65
+1082,Week 4,4,HbA1c,6.76
+1082,Week 12,12,HbA1c,6.13
+1082,Week 24,24,HbA1c,6.9
+1083,Baseline,0,HbA1c,5.34
+1083,Week 4,4,HbA1c,5.21
+1083,Week 12,12,HbA1c,4.47
+1083,Week 24,24,HbA1c,4.28
+1084,Baseline,0,HbA1c,8.67
+1084,Week 4,4,HbA1c,8.25
+1084,Week 12,12,HbA1c,8.25
+1084,Week 24,24,HbA1c,8.53
+1085,Baseline,0,HbA1c,7.2
+1085,Week 4,4,HbA1c,7.09
+1085,Week 12,12,HbA1c,7.31
+1085,Week 24,24,HbA1c,7.18
+1086,Baseline,0,HbA1c,7.65
+1086,Week 4,4,HbA1c,7.57
+1086,Week 12,12,HbA1c,7.51
+1086,Week 24,24,HbA1c,7.69
+1087,Baseline,0,HbA1c,6.64
+1087,Week 4,4,HbA1c,6.01
+1087,Week 12,12,HbA1c,6.33
+1087,Week 24,24,HbA1c,6.24
+1088,Baseline,0,HbA1c,6.7
+1088,Week 4,4,HbA1c,6.11
+1088,Week 12,12,HbA1c,5.56
+1088,Week 24,24,HbA1c,5.99
+1089,Baseline,0,HbA1c,8.73
+1089,Week 4,4,HbA1c,8.41
+1089,Week 12,12,HbA1c,8.44
+1089,Week 24,24,HbA1c,7.69
+1090,Baseline,0,HbA1c,5.98
+1090,Week 4,4,HbA1c,6.2
+1090,Week 12,12,HbA1c,6.47
+1090,Week 24,24,HbA1c,6.36
+1091,Baseline,0,HbA1c,7.68
+1091,Week 4,4,HbA1c,7.69
+1091,Week 12,12,HbA1c,7.91
+1091,Week 24,24,HbA1c,7.75
+1092,Baseline,0,HbA1c,8.17
+1092,Week 4,4,HbA1c,8.2
+1092,Week 12,12,HbA1c,8.38
+1092,Week 24,24,HbA1c,8.22
+1093,Baseline,0,HbA1c,5.55
+1093,Week 4,4,HbA1c,5.88
+1093,Week 12,12,HbA1c,5.5
+1093,Week 24,24,HbA1c,6.05
+1094,Baseline,0,HbA1c,6.43
+1094,Week 4,4,HbA1c,6.05
+1094,Week 12,12,HbA1c,5.73
+1094,Week 24,24,HbA1c,5.56
+1095,Baseline,0,HbA1c,8.0
+1095,Week 4,4,HbA1c,8.04
+1095,Week 12,12,HbA1c,8.21
+1095,Week 24,24,HbA1c,8.22
+1096,Baseline,0,HbA1c,6.87
+1096,Week 4,4,HbA1c,6.98
+1096,Week 12,12,HbA1c,6.92
+1096,Week 24,24,HbA1c,7.02
+1097,Baseline,0,HbA1c,5.87
+1097,Week 4,4,HbA1c,5.67
+1097,Week 12,12,HbA1c,5.99
+1097,Week 24,24,HbA1c,5.68
+1098,Baseline,0,HbA1c,6.43
+1098,Week 4,4,HbA1c,6.21
+1098,Week 12,12,HbA1c,6.4
+1098,Week 24,24,HbA1c,5.21
+1099,Baseline,0,HbA1c,7.34
+1099,Week 4,4,HbA1c,6.99
+1099,Week 12,12,HbA1c,6.93
+1099,Week 24,24,HbA1c,6.94
+1100,Baseline,0,HbA1c,5.66
+1100,Week 4,4,HbA1c,5.32
+1100,Week 12,12,HbA1c,5.3
+1100,Week 24,24,HbA1c,4.97
+1101,Baseline,0,HbA1c,5.86
+1101,Week 4,4,HbA1c,5.5
+1101,Week 12,12,HbA1c,5.4
+1101,Week 24,24,HbA1c,4.98
+1102,Baseline,0,HbA1c,6.49
+1102,Week 4,4,HbA1c,6.26
+1102,Week 12,12,HbA1c,5.49
+1102,Week 24,24,HbA1c,4.49
+1103,Baseline,0,HbA1c,6.69
+1103,Week 4,4,HbA1c,6.39
+1103,Week 12,12,HbA1c,6.2
+1103,Week 24,24,HbA1c,5.67
+1104,Baseline,0,HbA1c,7.93
+1104,Week 4,4,HbA1c,8.11
+1104,Week 12,12,HbA1c,8.16
+1104,Week 24,24,HbA1c,7.49
+1105,Baseline,0,HbA1c,6.11
+1105,Week 4,4,HbA1c,6.61
+1105,Week 12,12,HbA1c,5.86
+1105,Week 24,24,HbA1c,5.59
+1106,Baseline,0,HbA1c,5.15
+1106,Week 4,4,HbA1c,5.18
+1106,Week 12,12,HbA1c,4.89
+1106,Week 24,24,HbA1c,4.44
+1107,Baseline,0,HbA1c,7.02
+1107,Week 4,4,HbA1c,6.67
+1107,Week 12,12,HbA1c,6.83
+1107,Week 24,24,HbA1c,7.06
+1108,Baseline,0,HbA1c,6.42
+1108,Week 4,4,HbA1c,6.24
+1108,Week 12,12,HbA1c,6.15
+1108,Week 24,24,HbA1c,5.67
+1109,Baseline,0,HbA1c,7.38
+1109,Week 4,4,HbA1c,7.43
+1109,Week 12,12,HbA1c,7.13
+1109,Week 24,24,HbA1c,7.16
+1110,Baseline,0,HbA1c,6.8
+1110,Week 4,4,HbA1c,7.04
+1110,Week 12,12,HbA1c,6.57
+1110,Week 24,24,HbA1c,6.75
+1111,Baseline,0,HbA1c,6.72
+1111,Week 4,4,HbA1c,6.53
+1111,Week 12,12,HbA1c,6.03
+1111,Week 24,24,HbA1c,5.83
+1112,Baseline,0,HbA1c,7.32
+1112,Week 4,4,HbA1c,6.99
+1112,Week 12,12,HbA1c,7.47
+1112,Week 24,24,HbA1c,6.95
+1113,Baseline,0,HbA1c,6.53
+1113,Week 4,4,HbA1c,6.33
+1113,Week 12,12,HbA1c,5.97
+1113,Week 24,24,HbA1c,6.0
+1114,Baseline,0,HbA1c,6.84
+1114,Week 4,4,HbA1c,6.77
+1114,Week 12,12,HbA1c,6.57
+1114,Week 24,24,HbA1c,6.09
+1115,Baseline,0,HbA1c,8.38
+1115,Week 4,4,HbA1c,8.2
+1115,Week 12,12,HbA1c,8.35
+1115,Week 24,24,HbA1c,8.34
+1116,Baseline,0,HbA1c,4.31
+1116,Week 4,4,HbA1c,4.42
+1116,Week 12,12,HbA1c,4.14
+1116,Week 24,24,HbA1c,3.89
+1117,Baseline,0,HbA1c,7.73
+1117,Week 4,4,HbA1c,8.05
+1117,Week 12,12,HbA1c,7.64
+1117,Week 24,24,HbA1c,8.46
+1118,Baseline,0,HbA1c,6.72
+1118,Week 4,4,HbA1c,6.88
+1118,Week 12,12,HbA1c,6.3
+1118,Week 24,24,HbA1c,6.27
+1119,Baseline,0,HbA1c,7.35
+1119,Week 4,4,HbA1c,7.19
+1119,Week 12,12,HbA1c,7.21
+1119,Week 24,24,HbA1c,6.62
+1120,Baseline,0,HbA1c,7.54
+1120,Week 4,4,HbA1c,7.39
+1120,Week 12,12,HbA1c,7.33
+1120,Week 24,24,HbA1c,7.01
