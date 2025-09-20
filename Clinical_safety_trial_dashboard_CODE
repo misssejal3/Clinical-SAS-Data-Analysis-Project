@@ -1,1 +1,159 @@
+/*clinical trial safety dashboard*/
+/*1.import of data csv file*/
+/*creating the macro*/
+options mcompilenote=all mprint symbolgen mlogic;
+%macro imprt (path,opdt);
+       proc import datafile=&path
+                   out=&opdt
+                   dbms=csv replace;
+%mend;
+/*calling the macro*/
+%imprt("/home/u64255837/sas_proj_data/ae.csv",sejallib.ae_macro_proj);
+%imprt("/home/u64255837/sas_proj_data/dm .csv",sejallib.dm_macro_proj);
+%imprt("/home/u64255837/sas_proj_data/ex.csv",sejallib.ex_macro_proj);
+/* Check datasets */
+proc contents data=sejallib.dm_macro_proj; 
+run;
+proc contents data=sejallib.ex_macro_proj; 
+run;
+proc contents data=sejallib.ae_macro_proj; 
+run;
 
+/*2.Adverse Events by Severity */
+proc freq data=sejallib.ae_macro_proj;
+    tables AETERM*AESEV / nocol nopercent;
+run;
+
+/* AE frequency by Treatment Group */
+proc sql;
+    create table sejallib.ae_summary as
+    select d.TRTGRP, a.AETERM,
+           count(*) as AE_COUNT
+    from sejallib.ae_macro_proj a
+    left join sejallib.dm_macro_proj d
+    on a.USUBJID = d.USUBJID
+    group by d.TRTGRP, a.AETERM;
+quit;
+
+proc print data=sejallib.ae_summary;
+    title "Adverse Events Summary by Treatment Group";
+run;
+
+/*3.1.Detailed AE Listing */
+proc sql;
+    create table sejallib.ae_listing as
+    select d.USUBJID, d.SEX, d.AGE, d.TRTGRP,
+           a.AETERM, a.AESEV, a.AESER,
+           a.AESTDY, a.AEENDY
+    from sejallib.ae_macro_proj a
+    left join sejallib.dm_macro_proj d
+    on a.USUBJID = d.USUBJID
+    order by d.USUBJID, a.AESTDY;
+quit;
+
+ods rtf file="/home/u64255837/sas_proj_data/ae_listing.rtf";
+proc print data=sejallib.ae_listing noobs label;
+    title "Adverse Event Listing";
+run;
+ods rtf close;
+/*3.2 Detailed AE Listing(adding duration) */
+proc sql;
+    create table sejallib.ae_listing_2 as
+    select d.USUBJID, d.SEX, d.AGE, d.TRTGRP,
+           a.AETERM, a.AESEV, a.AESER,
+           a.AESTDY, a.AEENDY,
+           (a.AEENDY - a.AESTDY + 1) as AE_DUR
+    from sejallib.ae_macro_proj a
+    left join sejallib.dm_macro_proj d
+    on a.USUBJID = d.USUBJID
+    order by d.USUBJID, a.AESTDY;
+quit;
+
+ods rtf file="/home/u64255837/sas_proj_data/ae_listing_2.rtf";
+proc print data=sejallib.ae_listing_2 noobs label;
+    title "Adverse Event Listing";
+run;
+ods rtf close;
+
+/*4.graphical analysis*/
+/* AE Severity Distribution */
+ods graphics on;
+proc sgplot data=sejallib.ae_macro_proj;
+    vbar AESEV / stat=freq datalabel;
+    title "Adverse Events by Severity";
+run;
+
+/* Serious vs Non-serious */
+proc sgplot data=sejallib.ae_macro_proj;
+    vbar AESER / stat=freq datalabel;
+    title "Serious vs Non-Serious Adverse Events";
+run;
+ods graphics off;
+
+/*merging the datasets*/
+proc sql;
+    create table sejallib.ae_macro_proj_2 as
+    select d.USUBJID, d.SEX, d.AGE, d.TRTGRP,
+           a.AETERM, a.AESEV, a.AESER,
+           a.AESTDY, a.AEENDY
+    from sejallib.ae_macro_proj a
+    left join sejallib.dm_macro_proj d
+    on a.USUBJID = d.USUBJID
+    order by d.USUBJID;
+quit;
+proc print data=sejallib.ae_macro_proj_2 noobs label;
+run;
+/*using sgpanel*/
+ods layout gridded columns=2;
+proc sgpanel data=sejallib.ae_macro_proj_2;
+     panelby sex;
+     vbar AESEV /stat=freq datalabel;
+     title "Adverse Events by Severity";
+run;
+proc sgpanel data=sejallib.ae_macro_proj_2;
+     panelby sex;
+     vbar AESER /stat=freq datalabel;
+     title "Serious vs Non-Serious Adverse Events";
+run; 
+ods layout end;
+
+/*ae listings table*/
+proc sql;
+    create table sejallib.ae_listing as
+    select 
+        d.USUBJID  label="Subject ID",
+        d.SEX      label="Sex",
+        d.AGE      label="Age",
+        d.TRTGRP   label="Treatment Group",
+        a.AETERM   label="Adverse Event Term",
+        a.AESEV    label="Severity",
+        a.AESER    label="Serious (Y/N)",
+        a.AESTDY   label="Start Day",
+        a.AEENDY   label="End Day",
+        (a.AEENDY - a.AESTDY + 1) as AE_DUR label="Adverse Event Duration (Days)"
+    from sejallib.ae_macro_proj a
+    left join sejallib.dm_macro_proj d
+    on a.USUBJID = d.USUBJID
+    order by d.USUBJID, a.AESTDY;
+quit;
+/*generating */
+ods escapechar='^';   /* For formatting like superscripts if needed */
+
+ods rtf file="/home/u64255837/sas_proj_data/AE_Listing.rtf" 
+    style=journal startpage=no;
+
+/* Table Number and Title */
+title1 j=l "Table 14.3.1.1";
+title2 j=l "Adverse Event Listing with Duration";
+title3 j=l "Safety Analysis Set";
+
+/* Print the Listing */
+proc print data=sejallib.ae_listing noobs label split='*';
+    var USUBJID SEX AGE TRTGRP AETERM AESEV AESER AESTDY AEENDY AE_DUR;
+run;
+
+/* Add footnotes */
+footnote1 j=l "Source: Adverse Events (AE) and Demographics (DM) datasets";
+footnote2 j=l "Duration is calculated as End Day - Start Day + 1.";
+footnote3 j=l "CSR = Clinical Study Report. This listing is for review purposes.";
+ods rtf close;
