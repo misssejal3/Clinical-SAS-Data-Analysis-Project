@@ -1,0 +1,95 @@
+Clinical Trial Efficacy Analysis Project
+
+📌 Project Overview
+This project demonstrates the end-to-end workflow of efficacy analysis in a clinical trial setting using SAS programming.The primary objective is to evaluate the treatment effect on key efficacy endpoints (e.g., HbA1c, Blood Pressure, Tumor Size) by preparing datasets, deriving analysis variables, applying statistical models, and generating outputs.
+
+The work reflects the role of a Clinical SAS Programmer, focusing on:
+
+1.Preparing analysis-ready datasets (from raw SDTM-like data).
+2.Deriving change from baseline and percent change variables.
+3.Performing statistical analysis (ANCOVA, descriptive summaries).
+4.Producing summary tables and efficacy graphs.
+5.Delivering interpretable results for medical and regulatory teams.
+
+🎯 Objectives
+
+1.To mimic a clinical trial efficacy analysis using dummy datasets.
+2.To calculate baseline, change from baseline, and percent change for clinical endpoints.
+3.To evaluate treatment effect using statistical models.
+4.To generate professional tables, figures, and listings (TFLs).
+5.To present findings in a structured way, aligned with industry practices.
+
+📂 Project Structure
+
+clinical-efficacy-analysis/
+│
+├── data/  
+│   ├── lb_final.sas7bdat   # Lab results (HbA1c values)  
+│   ├── vs_final.sas7bdat   # Vital signs (Blood Pressure, HR)  
+│   └── tr_final.sas7bdat   # Tumor response (size measurements)  
+│
+├── programs/  
+│   ├── 01_data_prep.sas    # Import and clean raw datasets  
+│   ├── 02_derivations.sas  # Baseline, change, % change derivations  
+│   ├── 03_analysis.sas     # Efficacy analysis & ANCOVA models  
+│   ├── 04_outputs.sas      # Summary tables & plots generation  
+│
+├── outputs/  
+│   ├── tables/             # Efficacy summary tables  
+│   ├── figures/            # Graphical outputs (line plots, bar charts)  
+│   └── listings/           # Subject-level listings (optional)  
+│
+└── README.md               # Project documentation  
+
+🗂️ Datasets Used
+
+1.LB (Lab Results): Contains HbA1c measurements across visits.
+2.VS (Vital Signs): Contains Blood Pressure and Heart Rate.
+3.TR (Tumor Response): Contains tumor size over time.
+
+Each dataset includes subject identifiers, treatment group, visit number, and result values.
+
+🔑 Key Derivations
+
+1.Baseline:Value recorded at Visit 0 (pre-treatment).
+2.Change from Baseline:Current value – Baseline value.
+3.Percent Change:(Current – Baseline) / Baseline * 100`.
+
+📊 Statistical Analysis
+
+1.Descriptive Statistics: Mean ± SD of efficacy variables by treatment arm and visit.
+2.ANCOVA Model:
+  a.Endpoint = Treatment + Baseline + Covariates (e.g., Age, Sex).
+  b.Provides adjusted treatment comparisons.
+3.Treatment Comparisons: Pairwise differences with confidence intervals.
+
+📈 Outputs Generated
+
+1. Tables:
+   a. Baseline and post-baseline summary by treatment group.
+   b. Change from baseline (mean ± SD).
+   c. ANCOVA results with adjusted treatment comparisons.
+2. Figures:
+   a. Line plots of mean change from baseline over time by treatment arm.
+   b. Bar charts of percent change at endpoint visits.
+
+📌 Interpretation of Results
+
+1.Treatment efficacy is assessed by comparing the mean change from baseline between treatment arms.
+2.ANCOVA provides adjusted comparisons, accounting for baseline differences.
+3.Graphs visualize treatment trends over time, supporting conclusions.
+
+✅ Deliverables
+
+1.Analysis-ready datasets (LB, VS, TR with derived variables).
+2.SAS programs for data preparation, derivations, and analysis.
+3.Tables and figures for efficacy results.
+4.Documentation (README) explaining workflow and outputs.
+
+🏆 Project Value
+
+This project provides a portfolio-ready example of clinical trial efficacy analysis, aligned with industry and regulatory practices (CDISC, FDA/EMA). It highlights:
+1. End-to-end SAS programming skills.
+2. Clinical data derivations and statistical modeling.
+3. Creation of professional TFL outputs for trial reporting.
+
